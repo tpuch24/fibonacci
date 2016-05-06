@@ -12,7 +12,10 @@ public class TestDriveFibo {
 		System.out.println("Entrez le nombre d'iteration:");
 		int continu=input.nextInt();
 		//Iterative mode
+		System.out.println("Iterative:");
 		System.out.println(DisplayFiboIter.displayNumberIter(continu));
+		System.out.println("recursive:");
+		System.out.println(DisplayFiboIter.displayNumberRecurs(continu,1,0));
 	}
 
 }
